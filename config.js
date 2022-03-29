@@ -18,7 +18,7 @@ DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBU
 module.exports = {
     VERSION: 'v7.3.6',
     CHANNEL: 'https://t.me/remasterplugin',
-    SESSION: process.env.AMRUSER_CODE === undefined ? 'AMRU-SER;;;eyJjbGllbnRJRCI6IkNwbXhXSWtkSTl0RUN4Ymlpd0RnWXc9PSIsInNlcnZlclRva2VuIjoiMUBiVDl4bEFWbGNsbHB0NmptZU1FdGFGbEtSeEZnMnhsRWlXTXFBcjZ1WHEzemsvU0VxOEJuaXllUmwzNllJZ1RERDRuQWhKYjBNUm5XZ3c9PSIsImNsaWVudFRva2VuIjoiV0RxWk9HL2xRU0NQNm45bU5GK3Y0dFU4UCt3UWdxSFJCRDdaSUtCNzNyQT0iLCJlbmNLZXkiOiJFVlFrWkJCa3JaR1NUVGdyeGorY2x5NGtzSzlWU3ZDQTFZRURNa29jZ1pjPSIsIm1hY0tleSI6Ii9MbGlZOGVRTk1rMzN6dkczYnp3NDhzVWwyUzhOMXVFTC9Ra3NjdFQ2UDA9In0=' : process.env.AMRUSER_CODE,
+    SESSION: process.env.AMRUSER_CODE === undefined ? '' : process.env.AMRUSER_CODE,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
     AUTOBİO: process.env.AUTO_BİO === undefined ? 'false' : process.env.AUTO_BİO,
     FAKE: process.env.FAKE_REMOVE === undefined ? 'false' : process.env.FAKE_REMOVE,
